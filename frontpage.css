@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.04.2015, 23:32:40
+    Author     : emil
+*/
+body{
+    background:#e8ebec;
+    margin:0px;
+}
+
+#container {
+    
+    padding: 0px;
+    margin: 0 auto;
+    background-color: goldenrod;
+    
+
+}
+#container #innen{
+    
+    padding: 0px;
+    margin: 0 auto;
+    background-color: goldenrod;
+    
+}
+
+#container #zulge{
+    
+    padding: 0px;
+    margin: 0px auto;
+    background-color:whitesmoke;
+    /*schiebt die Schrift in das Zentrum*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column; /* Standard */
+    flex-direction: column; /* Standard */
+    display: -webkit-flex-drection; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    justify-content: center;
+   
+   
+    
+}
+
+#nav {
+    position:relative;
+    width:940px;
+    height:35px;
+    margin-top:-22px;
+}
+
+
+ul#navigation li {
+    font-size: small;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    //margin: 6px;
+    padding: 7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left:-40px;
+    margin-right: 40px;
+
+    float: left;
+    border-style:double ;
+    border-width: 1px;
+    border-color: #BABABA #BABABA #BABABA #FFF;
+    box-shadow: 0 1px rgba(255,255,255,1) inset;
+    -webkit-box-shadow: 0 1px rgba(255,255,255,1) inset;
+    background: #F7F7F7; /* Old browsers */
+    background: -moz-linear-gradient(top, #F7F7F7 0%, #EDEDED 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F7F7F7), color-stop(100%,#EDEDED)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* IE10+ */
+    background: linear-gradient(top, #F7F7F7 0%,#EDEDED 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7F7F7', endColorstr='#EDEDED',GradientType=0 ); /* IE6-9 */	
+}
+
+
+ul #navigation li a {
+    padding:auto;
+    float:next;
+    text-decoration: none;
+
+}
+
+
+
+#navigation a{
+    text-decoration: none;
+}
+
+
+
+
+
+header#box {
+    height:100vh;
+    width:100vw;
+    background-image: url('header.png');
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    /*schiebt die Schrift in das Zentrum*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column; /* Standard */
+    flex-direction: column; /* Standard */
+    display: -webkit-flex-drection; /* Safari */
+    -webkit-justify-content: center /* Safari 6.1+ */
+    justify-content: center;
+    align-items:center ;
+}
+
+header {
+    height:100vh;
+    width:100vw;
+    background-image: url('header.png');
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 50px;
+    /*schiebt die Schrift in das Zentrum*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column; /* Standard */
+    flex-direction: column; /* Standard */
+    display: -webkit-flex-drection; /* Safari */
+    //-webkit-justify-content: flex-end; /* Safari 6.1+ */
+    justify-content: center;
+    align-items:center ;
+}
+/*aside {
+    width: 50.083333333333332%;
+    padding: 2.083333333333333%;
+    margin: 7.291666666666667% 0 2.083333333333333% 4.166666666666666%;
+    float: left;
+    background: #CCC;
+}*/
+
+footer {
+    width: 95.83333333333334%;
+    padding: 1.125% 2.083333333333333%;
+    clear: both;
+    width:920px;
+    padding:10px 20px;
+    background:#e8ebec;
+    clear:both;
+    margin: auto;
+    font-family: verdana;
+}
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    aside, article {
+        width: 100%;
+        padding: 0px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #container {
+        max-width: 1000px;
+    }
+}
+
+aside {
+    width:260px;
+    padding:20px;
+    margin:0px 0px 80px;
+    float:right;
+    background:#CCC;
+}
+
+table,td,th {
+    border:solid 1px;
+}
+
+.button {
+    float:next;
+    margin-top: 3em;
+}
+
+footer {
+    font-size:small;
+}
