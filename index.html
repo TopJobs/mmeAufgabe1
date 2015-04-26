@@ -14,14 +14,16 @@ and open the template in the editor.
 
 
 
-        <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+        <!--<link rel="stylesheet" href="frontpage.css" type="text/css"/> -->
 
 
+<link rel="stylesheet" href="stylesheet.css" type="text/css"/>
     </head>
 
     <body>    
-        <nav id="nav">
-            <ul id="navigation">
+        <nav class="nav">
+            
+            <ul class="navigation">
 
                 <li><a href="frontpage.html">HOME</a></li>
                 <li><a href="mode.html">MODE</a></li>
@@ -32,16 +34,26 @@ and open the template in the editor.
                 <li id="start"><a href="anmelden.html">anmelden</a></li>
             </ul>
         </nav>
-        <div id="container">
-            <header>
-                <img src="header.png" alt="Logo" height="400" width="940">
+        <header class="navigation">
+                
             </header>
+        <section class="container">
+            
 
             <h1>&emsp; Alle Berichte</h1>
             <p>&emsp;&emsp; Alle Erfahrungsberichte unter einem Dach.</p>
 
 
-            <center><table>
+            <ul class="vertButtons">
+                <li><input type="submit" class="button" value="Show all"></li> 
+                <li><input type="submit" class="button" value="new"></li> 
+               <li> <input type="submit" class="button" value="update "></li> 
+                <li><input type="submit" class="button" value="remove"></li> 
+                <li><input type="submit" class="button" value=""></li> 
+            </ul>
+                
+                <center>
+                <table class="Tabelle">
                     <tr>
                         <th>&emsp;User&emsp;</th>
                         <th>&emsp;Unternehmen&emsp;</th>
@@ -59,7 +71,7 @@ and open the template in the editor.
                     <td><center>Berlin</center></td>
                     <td><center>7,50$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                    
 
                     </tr>
                     <tr>
@@ -80,7 +92,7 @@ and open the template in the editor.
                     <td><center>Berlin</center></td>
                     <td><center>8$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                    
                     
                     <tr>
                     <td><center>JobGuru</center></td>
@@ -90,7 +102,7 @@ and open the template in the editor.
                     <td><center>München</center></td>
                     <td><center>12$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                  
                     
                     <tr>
                     <td><center>AddiDass</center></td>
@@ -100,7 +112,7 @@ and open the template in the editor.
                     <td><center>Frankfurt</center></td>
                     <td><center>9,50$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                    
                     
                     <tr>
                     <td><center>ArnoNym</center></td>
@@ -110,7 +122,7 @@ and open the template in the editor.
                     <td><center>Frankfurt</center></td>
                     <td><center>6,50$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                    
                     
                     <tr>
                     <td><center>AnnGeber</center></td>
@@ -120,7 +132,7 @@ and open the template in the editor.
                     <td><center>Frankfurt</center></td>
                     <td><center>18,50$</center></td>
                     <td><a href="Erfahrungsbericht.html"><center>lesen</center></a><br></td>
-                    <br>
+                    
                     
                     
                        <tr>
@@ -135,8 +147,8 @@ and open the template in the editor.
                     
                     
 
-                </tr></center></table></article></body>
-<p>&emsp;</p></div></body>
+                </tr> </center></table></article></body>
+<p>&emsp;</p></section></body>
 
 <footer><center><p style="word-spacing: 3em"><font size=2>
             FAQ Kontakt Impressum AGB Datenschutz</center></p></p></font></footer>
