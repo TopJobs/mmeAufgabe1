@@ -3,16 +3,40 @@ body {
     margin:0px;
     font-family: verdana;
 }
-#container {
+.container {
     width:940px;
     padding:0px;
     padding-left: 0px;
     margin: auto;
     background:white;
-    
+   
+
 }
 
-#nav{
+
+.vertButtons {
+padding-left:0px;
+  text-decoration: none;
+    display:block;
+    float:left;
+    
+    
+    
+
+
+}
+.vertButtons li{
+padding-left:10px;
+  text-decoration: none;
+    display:block;
+    float:left;
+    
+    
+    
+
+
+}
+.nav{
     position:fixed;
     width:100vw;
     height:40px;
@@ -22,9 +46,18 @@ body {
     padding: 13px;
     box-shadow:0px 1px 2px #808080;
 }
+#navPaswortvergessen{
+    width:100vw;
+    height:40px;
+    margin-top:-22px;
+    white-space: nowrap;
+    background: white;
+    padding: 13px;
+    box-shadow:0px 1px 2px #808080;
+    
+}
 
-
-ul#navigation li {
+ul.navigation li {
     font-size: small;
     text-decoration: none;
     list-style: none;
@@ -38,7 +71,7 @@ ul#navigation li {
     box-shadow: 10px;
 }
 
-ul #navigation li a {
+ul .navigation li a {
     padding:auto;
     float:left;
     text-decoration: none;
@@ -48,12 +81,12 @@ ul #navigation li a {
 }
 
 
-#navigation a{
+.navigation a{
     text-decoration: none;
     box-shadow: 10px;
 }
 
-ul#navigation {
+ul.navigation {
     margin-left:155px;
 }
 
@@ -65,14 +98,20 @@ header {
     font-family: Verdana;
     font-size: large;
     width: 100%;
-            
-            box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            behavior: url(/scripts/boxsizing.htc);
+    
+
+   width: 100vw;
+    height: 100vh;
+ 
+    margin: auto 0;
+    background-image: url("header.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
- #start{
+#start{
     padding-right:auto;
     padding-bottom:1px;
     margin:auto;
@@ -89,8 +128,83 @@ footer {
 
 table,td,th {
     border:solid 1px;
+
 }
 
 #text{
     padding:30px;
+}
+
+.button {
+    float:next;
+    margin-top: 100em;
+}
+/** ab hier beginnt der Part mit den Formularen und deren Stylesheets
+*/
+
+
+main,
+svg {
+ border-radius: 0px 0.5em 0.5em;
+ border: 1px solid;
+ padding: 10px;
+ margin: 10px;
+}
+
+
+
+
+
+main {
+ display: block;
+ // für IE /
+ 
+ background: #c4ced3;
+ border-color: #8a9da8;
+ min-height: 400px;
+}
+
+form {
+ width: 25em;
+}
+
+input {
+ padding: .5em;
+ background-color: #fffbf0;
+ border: 1px solid black;
+ width: 10em;
+}
+
+label {
+ display: inline-block;
+ width: 12em;
+ margin-bottom: 1em;
+ line-height: 2em;
+ text-align: right;
+}
+
+label::after {
+ content: ":";
+}
+
+input:invalid {
+ border: 1px solid red;
+}
+
+button {
+    
+ margin-left: 17em;
+ width: 10em;
+ margin-bottom: 1em;
+}
+
+.box{
+    margin-top: 30px;
+    width:740px;
+    border-radius: 30px;
+   
+    padding-left: 0px;
+    margin: auto;
+    
+    
 }
