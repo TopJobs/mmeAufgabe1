@@ -9,8 +9,6 @@ body {
     padding-left: 0px;
     margin: auto;
     background:white;
-   
-
 }
 
 
@@ -19,10 +17,6 @@ padding-left:0px;
   text-decoration: none;
     display:block;
     float:left;
-    
-    
-    
-
 
 }
 .vertButtons li{
@@ -30,10 +24,6 @@ padding-left:10px;
   text-decoration: none;
     display:block;
     float:left;
-    
-    
-    
-
 
 }
 .nav{
@@ -46,16 +36,7 @@ padding-left:10px;
     padding: 13px;
     box-shadow:0px 1px 2px #808080;
 }
-#navPaswortvergessen{
-    width:100vw;
-    height:40px;
-    margin-top:-22px;
-    white-space: nowrap;
-    background: white;
-    padding: 13px;
-    box-shadow:0px 1px 2px #808080;
-    
-}
+
 
 ul.navigation li {
     font-size: small;
@@ -100,11 +81,11 @@ header {
     width: 100%;
     
 
-   width: 100vw;
+    width: 100vw;
     height: 100vh;
  
     margin: auto 0;
-    background-image: url("header.png");
+    background-image: url("bilder/header.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -124,10 +105,16 @@ footer {
     clear:both;
     margin: auto;
     font-family: verdana;
+    text-align: center;
+}
+
+.Tabelle{
+    text-align:center;
 }
 
 table,td,th {
     border:solid 1px;
+    text-align:center;
 
 }
 
@@ -137,7 +124,7 @@ table,td,th {
 
 .button {
     float:next;
-    margin-top: 100em;
+    margin-top: 3em;
 }
 /** ab hier beginnt der Part mit den Formularen und deren Stylesheets
 */
@@ -151,14 +138,8 @@ svg {
  margin: 10px;
 }
 
-
-
-
-
 main {
  display: block;
- // für IE /
- 
  background: #c4ced3;
  border-color: #8a9da8;
  min-height: 400px;
@@ -171,7 +152,7 @@ form {
 input {
  padding: .5em;
  background-color: #fffbf0;
- border: 1px solid black;
+ border: 1px solid #e7c157;
  width: 10em;
 }
 
@@ -193,18 +174,16 @@ input:invalid {
 
 button {
     
- margin-left: 17em;
+ margin-left: 30em;
  width: 10em;
  margin-bottom: 1em;
 }
 
 .box{
     margin-top: 30px;
-    width:740px;
+    width:840px;
     border-radius: 30px;
-   
+    opacity:0.5;
     padding-left: 0px;
     margin: auto;
-    
-    
 }
